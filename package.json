@@ -9,6 +9,7 @@
   "license": "ISC",
   "scripts": {
     "test": "jest",
+    "test:prod": "jest --watchAll --coverage --watchAll=false --passWithNoTests",
     "test:w": "jest --watchAll",
     "prepare": "husky install"
   },
