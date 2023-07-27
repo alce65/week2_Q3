@@ -22,6 +22,7 @@ console.log(obj.name);
 foo(obj);
 console.log(obj.name);
 
+// Usos de JSON
 // JSON.parse('{ "name": "Pepe"}') // {name: 'Pepe'}
 // JSON.stringify({name: 'Pepe'} ) // '{ "name": "Pepe"}'
 

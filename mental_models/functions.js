@@ -1,7 +1,3 @@
-/* eslint-disable no-compare-neg-zero */
-/* eslint-disable use-isnan */
-/* eslint-disable no-self-compare */
-/* eslint-disable capitalized-comments */
 /* eslint-disable no-unused-vars */
 
 foo(); // Ejemplo de Hoisting
@@ -11,17 +7,22 @@ foo(); // Ejemplo de Hoisting
 // Declaración
 
 function foo() {
-  // Implementacion
+  // Implementación
   console.log('Soy foo');
 }
 
 // Asignación de un function expression (= función anónima)
 
-const bar = function () {};
-const arrow = () => {};
+const bar = function () {
+  // Implementación
+};
 
+const arrow = () => {
+  // Implementación
+};
+
+// Parámetros v. Argumentos
 // foo(...argumentos) ===> VALORES
-
 // const foo = (parámetros) => {} ===> VARIABLES
 
 const add = (x, y) => {
