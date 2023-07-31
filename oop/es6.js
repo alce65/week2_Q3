@@ -2,6 +2,10 @@
 // ES 2015 / ES6
 
 class UserClass {
+  email;
+  userName;
+  age;
+
   constructor(email, userName, age) {
     this.email = email;
     this.userName = userName;
@@ -35,6 +39,10 @@ console.log(user1.brand);
 console.log(user1.constructor.brand);
 
 class Alumno extends UserClass {
+  email;
+  userName;
+  age;
+  course;
   constructor(email, userName, age, course) {
     super(email, userName, age);
     this.course = course;
